@@ -38,23 +38,11 @@
 
     <!-- 사용자 스타일 -->
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/skip.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/section.css" />
-    <link rel="stylesheet" href="css/welcome.css" />
-    <link rel="stylesheet" href="css/i_am.css" />
-    <link rel="stylesheet" href="css/skill.css" />
-    <link rel="stylesheet" href="css/portfolio.css" />
-    <link rel="stylesheet" href="css/tel.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/b_license.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- 사용자 JS -->
-    <script src="js/skip.js"></script>
-    <script src="js/header_footer.js"></script>
-    <script src="js/portfolio.js"></script>
-    <script src="js/licencs.js"></script>
+    <script src="js/script.js"></script>
+   
   </head>
   <body>
     <ul class="skip_menu">
@@ -253,6 +241,7 @@
                 </div>
               </li>
             </ul>
+            
           </div>
           <div class="big_license00">
             <div class="big_li">
@@ -308,55 +297,87 @@
         <div class="content">
           <h2>PortFolio</h2>
           <p>저는 빠른 적응력과 습득력을 가졌습니다.</p>
-          <div class="swiper-container">
-            <ul class="swiper-wrapper">
-              <li class="swiper-slide kia">
-                <div class="slide_img">
-                  <img src="images/kia.png" alt="kia" />
-                </div>
-                <div class="slide_txt">
-                  <h3>기아자동차<span>리뉴얼</span></h3>
-                  <p>HTML,CSS,jS,반응형</p>
-                </div>
-              </li>
-              <li class="swiper-slide iwc">
-                <div class="slide_img">
-                  <img src="images/iwc.png" alt="iwc" />
-                </div>
-                <div class="slide_txt">
-                  <h3>IWC<span>리뉴얼</span></h3>
-                  <p>HTML,CSS,jS,반응형</p>
-                </div>
-              </li>
-              <li class="swiper-slide tour">
-                <div class="slide_img">
-                  <img src="images/tour.png" alt="tour" />
-                </div>
-                <div class="slide_txt">
-                  <h3>투어리스트</h3>
-                  <p>HTML,CSS,jS,반응형</p>
-                </div>
-              </li>
-              <li class="swiper-slide megabox">
-                <div class="slide_img">
-                  <img src="images/megabox.png" alt="megabox" />
-                </div>
-                <div class="slide_txt">
-                  <h3>매가박스<span>리뉴얼</span></h3>
-                  <p>HTML,CSS,jS</p>
-                </div>
-              </li>
-              <li class="swiper-slide kakao">
-                <div class="slide_img last-img">
-                  <img src="images/kakao.png" alt="kakao" />
-                </div>
-                <div class="slide_txt">
-                  <h3>카카오<span>리뉴얼</span></h3>
-                  <p>HTML,CSS,jS</p>
-                </div>
-              </li>
-            </ul>
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#conf">클론코딩</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#proList">작업물</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane show active" id="conf">
+              <div class="swiper-container">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide cul">
+                    <div class="slide_img">
+                      <img src="images/cul.png" alt="cul" />
+                    </div>
+                    <div class="slide_txt">
+                      <h3>게임 음악제작 서비스</h3>
+                      <p>HTML,CSS,jS(100%)</p>
+                    </div>
+                  </li>
+                  <li class="swiper-slide chon">
+                    <div class="slide_img">
+                      <img src="images/chon.png" alt="chon" />
+                    </div>
+                    <div class="slide_txt">
+                      <h3>콤마존</h3>
+                      <p>HTML,CSS,jS,반응형(100%)</p>
+                    </div>
+                  </li>
+                  <li class="swiper-slide kia">
+                    <div class="slide_img">
+                      <img src="images/kia.png" alt="kia" />
+                    </div>
+                    <div class="slide_txt">
+                      <h3>기아자동차<span>리뉴얼</span></h3>
+                      <p>HTML,CSS,jS,반응형</p>
+                    </div>
+                  </li>
+                  <li class="swiper-slide iwc">
+                    <div class="slide_img">
+                      <img src="images/iwc.png" alt="iwc" />
+                    </div>
+                    <div class="slide_txt">
+                      <h3>IWC<span>리뉴얼</span></h3>
+                      <p>HTML,CSS,jS,반응형</p>
+                    </div>
+                  </li>
+                  <li class="swiper-slide tour">
+                    <div class="slide_img">
+                      <img src="images/tour.png" alt="tour" />
+                    </div>
+                    <div class="slide_txt">
+                      <h3>투어리스트</h3>
+                      <p>HTML,CSS,jS,반응형</p>
+                    </div>
+                  </li>
+                  <li class="swiper-slide megabox">
+                    <div class="slide_img">
+                      <img src="images/megabox.png" alt="megabox" />
+                    </div>
+                    <div class="slide_txt">
+                      <h3>매가박스<span>리뉴얼</span></h3>
+                      <p>HTML,CSS,jS</p>
+                    </div>
+                  </li>
+                  <li class="swiper-slide kakao">
+                    <div class="slide_img last-img">
+                      <img src="images/kakao.png" alt="kakao" />
+                    </div>
+                    <div class="slide_txt">
+                      <h3>카카오<span>리뉴얼</span></h3>
+                      <p>HTML,CSS,jS</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="tab-pane" id="proList">ㅇㅇ</div>
           </div>
+        
         </div>
       </section>
       <section class="section" id="tel">
